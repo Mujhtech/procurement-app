@@ -1,0 +1,25 @@
+.responsive {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  table-layout: auto;
+  width: 100%;
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+.tableheader {
+  background-color: rgb(229 231 235);
+}
+
+.tablehead,
+.tablecell {
+  padding: 10px 8px;
+  text-align: left;
+}

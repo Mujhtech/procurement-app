@@ -1,27 +1,31 @@
-# Basic CSS example
+# Procurement
 
-Next.js has built-in support for [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.
+### Instruction
 
-## Deploy your own
+Install dependencies
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/basic-css)
+```sh
+pnpm install
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/basic-css&project-name=basic-css&repository-name=basic-css)
+# Or
 
-## How to use
+yarn install
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+# Or
 
-```bash
-npx create-next-app --example basic-css basic-css-app
+npm install
 ```
 
-```bash
-yarn create next-app --example basic-css basic-css-app
-```
+Run Locally
 
-```bash
-pnpm create next-app --example basic-css basic-css-app
-```
+```sh
+pnpm run dev
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Or
+
+yarn run dev
+
+# Or
+
+npm run dev
+```

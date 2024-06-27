@@ -1,0 +1,18 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-color: rgb(229 231 235);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.cardheader {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}

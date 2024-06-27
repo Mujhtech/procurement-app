@@ -1,0 +1,40 @@
+.responsive {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.more {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.more .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.more .info .subtotal {
+  display: flex;
+  gap: 10px;
+}
+
+.more .info .total {
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 6px;
+}
+
+.more .info .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.more .info .actions .link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
